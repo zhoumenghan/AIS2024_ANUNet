@@ -1,0 +1,3 @@
+# write your config file here
+python demo/runtime_demo.py --submission-id LeRTSR --model-name LeRTSR  --scale 4 --fp16
+python demo/sr_demo.py --submission-id LeRTSR --model-name LeRTSR --checkpoint ./ANUNet_x4.pth --scale 4 --lr-dir ./testset/LR4/ --save-sr --fp16
